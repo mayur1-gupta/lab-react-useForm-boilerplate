@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4caf50; 
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
